@@ -1,0 +1,78 @@
+.header {
+  background: rgba(255, 255, 255, 1);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.signin {
+  font-size: 18px;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.signup {
+  font-size: 18px;
+  line-height: 1.55;
+  color: rgba(82, 196, 26, 1);
+  padding: 6px 18px;
+  border: 1px solid rgba(82, 196, 26, 1);
+  border-radius: 5px;
+  margin: 0 0 0 30px;
+}
+.create {
+  line-height: 1.57;
+  font-size: 14px;
+  color: rgba(82, 196, 26, 1);
+  padding: 3.6px 14px;
+  border: 1px solid rgba(82, 196, 26, 1);
+  border-radius: 5px;
+  margin-left: 27px;
+}
+.create:hover {
+  background: rgba(82, 196, 26, 0.2);
+  transition: all 0.3s;
+}
+.editProfile {
+  margin-left: 27px;
+}
+
+.logOut {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.75);
+  padding: 14px 21.5px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  margin-left: 27px;
+}
+.logOut:hover {
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+.body {
+  display: flex;
+  align-items: center;
+}
+.name {
+  font-size: 18px;
+}
+
+.avatar {
+  margin-left: 12px;
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+.defImg {
+  margin-left: 12px;
+  height: 46px;
+  width: 46px;
+  background: #ccc;
+  border-radius: 50%;
+}

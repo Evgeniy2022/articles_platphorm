@@ -1,0 +1,82 @@
+.article {
+  margin: 0px auto 26px auto;
+  background: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 941px;
+  padding: 15px;
+  min-height: 140px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  max-width: 600px;
+  font-size: 20px;
+  color: rgba(24, 144, 255, 1);
+  overflow: hidden;
+  max-height: 25px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  margin-left: 13px;
+}
+.likes {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.tags {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  overflow: hidden;
+  max-height: 22px;
+}
+.tag {
+  overflow-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  line-height: 1.2;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 8px;
+  border-radius: 2px;
+  padding: 2px 5px;
+}
+.card {
+  display: flex;
+  align-items: flex-start;
+}
+.description {
+  max-width: 682px;
+  overflow: hidden;
+  line-height: 1.83;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.75);
+  overflow-wrap: break-word;
+  max-height: 45px;
+}
+.name {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 1.5;
+}
+.born {
+  font-size: 12px;
+  line-height: 1.83;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+  margin-left: 12px;
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}

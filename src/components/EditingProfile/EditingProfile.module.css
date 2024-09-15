@@ -1,0 +1,76 @@
+.body {
+  padding: 59px 0 0 0;
+  color: rgba(38, 38, 38, 1);
+}
+.container {
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  max-width: 384px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+
+  border: 1px solid rgba(217, 217, 217, 1);
+  box-shadow: 0px 0.61px 2.93px 0px rgba(0, 0, 0, 0.02),
+    0px 1.46px 7.05px 0px rgba(0, 0, 0, 0.03),
+    0px 2.75px 13.27px 0px rgba(0, 0, 0, 0.04),
+    0px 4.91px 23.68px 0px rgba(0, 0, 0, 0.04),
+    0px 9.19px 44.28px 0px rgba(0, 0, 0, 0.05),
+    0px 22px 106px 0px rgba(0, 0, 0, 0.07);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.emailLabel,
+.passLabel {
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: 400;
+}
+.emailInput,
+.passInput,
+.usernameInput,
+.avatar {
+  border: 1px solid rgba(217, 217, 217, 1);
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.emailInput,
+.passInput,
+.usernameInput{
+  margin-bottom: 12px;
+}
+.avatar {
+  margin-bottom: 21px;
+}
+::placeholder {
+  font-size: 16px;
+  color: rgba(191, 191, 191, 1);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.btn {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  background: rgba(24, 144, 255, 1);
+  border-radius: 4px;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+
+.btn:hover{
+	background: rgba(24, 143, 255, 0.616);
+}

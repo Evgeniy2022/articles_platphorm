@@ -1,0 +1,14 @@
+.page {
+  margin: 0 5px;
+  padding: 4px 7px;
+  border-radius: 4px;
+}
+.page:hover {
+  background: rgba(24, 144, 255, 1);
+  transition: all 0.3s;
+}
+
+
+.active{
+	background: rgba(24, 144, 255, 1);
+}

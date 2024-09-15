@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.body {
+  display: flex;
+  font-size: 12px;
+}
+
+
+.back {
+  padding: 4px 7px 2px;
+  border-radius: 4px;
+}
+
+.back:hover {
+  background: rgba(24, 144, 255, 1);
+  transition: all 0.3s;
+}
+.next {
+  padding: 4px 7px 2px;
+  border-radius: 4px;
+}
+
+.next:hover {
+  background: rgba(24, 144, 255, 1);
+  transition: all 0.3s;
+}
