@@ -1,3 +1,3 @@
 # React + TypeScript + Vite
 
-https://blog-platphorm-nvxt.vercel.app/
+https://articles-platphorm.vercel.app/
